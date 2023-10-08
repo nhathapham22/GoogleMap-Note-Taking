@@ -64,9 +64,14 @@ public class JournalFormFragment extends Fragment {
     // this is used by MapFragment to updateData whenever marker change location
     public void updateData(Double latitude, Double longitude, String locationAddress) {
         // Update the corresponding EditText fields with the received data
-        editLatitude.setText(String.valueOf(latitude));
-        editLongitude.setText(String.valueOf(longitude));
+
+        editLatitude.setText(String.format("%.4f", latitude));
+        editLongitude.setText(String.format("%.4f", longitude));
         editLocationAddress.setText(locationAddress);
+
+        //editLatitude.setText(String.valueOf(latitude));
+        //editLongitude.setText(String.valueOf(longitude));
+        //editLocationAddress.setText(locationAddress);
     }
 
 }
