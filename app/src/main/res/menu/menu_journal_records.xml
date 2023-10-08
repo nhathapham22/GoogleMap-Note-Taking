@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_journal_records_view_enter_record"
+        android:title="Enter new record"
+        />
+    <item
+        android:id="@+id/menu_journal_records_delete_records"
+        android:title="Delete all records" />
+    <item
+        android:id="@+id/menu_journal_records_quit"
+        android:title="Quit" />
+</menu>

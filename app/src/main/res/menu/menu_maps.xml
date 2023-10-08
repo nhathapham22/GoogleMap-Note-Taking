@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_maps_view_journal_records"
+        android:title="Show all journal records"
+        />
+    <item
+        android:id="@+id/menu_maps_quit"
+        android:title="Quit" />
+</menu>
